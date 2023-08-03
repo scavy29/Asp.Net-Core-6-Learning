@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+E/iuKRMU7jeLHripp8DLfmFWuc0KP+dliqqYHVEhkg=",
+  "Hash": "wl5RoO79nUgp48qfGPugxddxLGQBngB/o0CYfVRowvU=",
   "Source": "BankTransactions",
   "BasePath": "_content/BankTransactions",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\Tech Interview Preparation\\DOT NET Core 6\\CRUD Operations\\BankTransactions\\BankTransactions\\wwwroot\\download.png",
+      "SourceId": "BankTransactions",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tech Interview Preparation\\DOT NET Core 6\\CRUD Operations\\BankTransactions\\BankTransactions\\wwwroot\\",
+      "BasePath": "_content/BankTransactions",
+      "RelativePath": "download.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\download.png"
     },
     {
       "Identity": "E:\\Tech Interview Preparation\\DOT NET Core 6\\CRUD Operations\\BankTransactions\\BankTransactions\\wwwroot\\favicon.ico",

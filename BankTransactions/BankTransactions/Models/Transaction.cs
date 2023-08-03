@@ -12,25 +12,25 @@ namespace BankTransactions.Models
 
         [Column(TypeName="nvarchar(12)")]
         [DisplayName("Account Number")]
-        [Required]
+        [Required(ErrorMessage ="This Field is Required")]
         public string Accountnumber { get; set; }
 
-        [Column(TypeName = "nvarchar(12)")]
+        [Column(TypeName = "nvarchar(100)")]
         [DisplayName("Benificiary Name")]
-        [Required]
+        [Required(ErrorMessage = "This Field is Required")]
         public string BeneficiaryName { get; set; }
 
-        [Column(TypeName = "nvarchar(12)")]
+        [Column(TypeName = "nvarchar(100)")]
         [DisplayName("Bank Name")]
-        [Required]
+        [Required(ErrorMessage = "This Field is Required")]
         public string BankName { get; set; }
 
         [Column(TypeName = "nvarchar(12)")]
         [DisplayName("IFSC")]
-        [Required]
+        [Required(ErrorMessage = "This Field is Required")]
         public string IFSCCode { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "This Field is Required")]
         public int Amount { get; set; }
 
         public DateTime Date { get; set; }

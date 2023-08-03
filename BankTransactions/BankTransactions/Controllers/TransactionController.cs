@@ -50,7 +50,7 @@ namespace BankTransactions.Controllers
             return View(new Transaction());
         }
 
-        // POST: Transaction/Create
+        // POST: Transaction/AddOrEdit
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -59,6 +59,7 @@ namespace BankTransactions.Controllers
         {
             if (ModelState.IsValid)
             {
+                transaction.Date = DateTime.Now;
                 _context.Add(transaction);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "E:\\Tech Interview Preparation\\DOT NET Core 6\\CRUD Operations\\BankTransactions\\BankTransactions\\wwwroot\\download.png",
+      "PackagePath": "staticwebassets\\download.png"
+    },
+    {
       "Id": "E:\\Tech Interview Preparation\\DOT NET Core 6\\CRUD Operations\\BankTransactions\\BankTransactions\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
