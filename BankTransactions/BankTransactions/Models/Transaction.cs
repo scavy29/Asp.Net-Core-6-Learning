@@ -13,11 +13,12 @@ namespace BankTransactions.Models
         [Column(TypeName="nvarchar(12)")]
         [DisplayName("Account Number")]
         [Required(ErrorMessage ="This Field is Required")]
+        [MaxLength(12, ErrorMessage = "Maximum 12 characters only.")]
         public string Accountnumber { get; set; }
 
-        [Column(TypeName = "nvarchar(100)")]
-        [DisplayName("Benificiary Name")]
-        [Required(ErrorMessage = "This Field is Required")]
+        [Column(TypeName = "nvarchar(50)")]
+        [DisplayName("Beneficiary Name")]
+        [Required(ErrorMessage = "This field is required.")]
         public string BeneficiaryName { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
@@ -25,9 +26,10 @@ namespace BankTransactions.Models
         [Required(ErrorMessage = "This Field is Required")]
         public string BankName { get; set; }
 
-        [Column(TypeName = "nvarchar(12)")]
+        [Column(TypeName = "nvarchar(11)")]
         [DisplayName("IFSC")]
         [Required(ErrorMessage = "This Field is Required")]
+        [MaxLength(11,ErrorMessage ="Maximum 11 Characters are Allowed")]
         public string IFSCCode { get; set; }
 
         [Required(ErrorMessage = "This Field is Required")]
